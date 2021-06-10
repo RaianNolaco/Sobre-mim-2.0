@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: neon;
+  src: url("../Font/BeonMedium-7Z34.ttf");
+}
+/*--------------------------------Menu--------------------------------*/
+  
+  a {
+  
+    display: inline-block;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-family: neon;
+    overflow: hidden;
+    transition: 0.2s;
+  }
+  
+  .filmes {
+    color: #e50b0b;
+    width: 140px;
+  }
+  
+  .jogos {
+    color: #04df0f;
+    width: 140px;
+  }
+  
+  .livros {
+    color: #ec8003;
+    width: 140px;
+  }
+  
+  
+  .musicas{
+     color: #6b006b;
+     width: 140px;
+   }
+  
+   .sonhos{
+    color: #0081fa;
+    width: 140px;
+  }
+  
+  .objetivos{
+    color: #fbff00;
+    width: 140px;
+  }
+  
+  .animes{
+    color: #ff00f2;
+    width: 140px;
+  }
+   
+  
+  /*------------------------------------------------------------------------------------*/
+  
+  
+  .filmes:hover {
+    color: #fff7f7;
+    background: #e97272;
+    box-shadow: 0 0 10px #e97272, 0 0 40px #e50b0b, 0 0 80px #e50b0b;
+    border-radius: 1rem;
+    transition: 0.5s;
+  }
+  
+  .jogos:hover {
+    color: #fff7f7;
+    background: #6aec70;
+    box-shadow: 0 0 10px #6aec70, 0 0 40px #04df0f, 0 0 80px #04df0f;
+    border-radius: 1rem;
+    transition: 0.5s;
+  }
+  
+  .livros:hover {
+    color: #fff7f7;
+    background: #d89140;
+    box-shadow: 0 0 10px #d89140, 0 0 40px #ec8003, 0 0 80px #ec8003;
+    border-radius: 1rem;
+    transition: 0.5s;
+  }
+  
+  .musicas:hover {
+     color: #fff7f7;
+     background: #aa42b8;
+     box-shadow: 0 0 10px #aa42b8, 0 0 40px #6b006b, 0 0 80px #6b006b;
+     border-radius: 1rem;
+     transition: 0.5s;
+   }
+  
+   .sonhos:hover {
+    color: #fff7f7;
+    background: #4d9ee9;
+    box-shadow: 0 0 10px #4d9ee9, 0 0 40px #0081fa, 0 0 80px #0081fa;
+    border-radius: 1rem;
+    transition: 0.5s;
+  }
+  
+  .objetivos:hover {
+    color: #fff7f7;
+    background: #e6e94b;
+    box-shadow: 0 0 10px #e6e94b, 0 0 40px #fbff00, 0 0 80px #fbff00;
+    border-radius: 1rem;
+    transition: 0.5s;
+  }
+  
+  .animes:hover {
+    color: #fff7f7;
+    background: #aa42b8;
+    box-shadow: 0 0 10px #aa42b8, 0 0 40px #ff00f2, 0 0 80px #ff00f2;
+    border-radius: 1rem;
+    transition: 0.5s;
+  }
+  
+  /*----------------------------------------------------------------------------*/
+
+      
+  .btn_box_filmes{
+
+    text-align: center;
+
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e97272,
+      0 0 4vw 0.4vw #e50b0b, inset 0 0 1.5vw 0.4vw #e50b0b,
+      inset 0 0 0.4vw 0.2vw #e97272, inset 0 0 0.5vw 0.2vw #fff7f7;
+    border-radius: 1rem;
+  }
+  
+  .btn_box_jogos {
+
+    text-align: center;
+
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #6aec70,
+      0 0 4vw 0.4vw #04df0f, inset 0 0 1.5vw 0.4vw #04df0f,
+      inset 0 0 0.4vw 0.2vw #6aec70, inset 0 0 0.5vw 0.2vw #fff7f7;
+    border-radius: 1rem;
+  }
+  
+  .btn_box_livros {
+
+    text-align: center;
+
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #d89140,
+      0 0 4vw 0.4vw #ec8003, inset 0 0 1.5vw 0.4vw #ec8003,
+      inset 0 0 0.4vw 0.2vw #d89140, inset 0 0 0.5vw 0.2vw #fff7f7;
+    border-radius: 1rem;
+  }
+  
+  .btn_box_musicas{
+
+     text-align: center;
+
+     box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #742c74,
+       0 0 4vw 0.4vw #6b006b, inset 0 0 1.5vw 0.4vw #6b006b,
+       inset 0 0 0.4vw 0.2vw #742c74, inset 0 0 0.5vw 0.2vw #fff7f7;
+     border-radius: 1rem; 
+   }
+  
+   .btn_box_sonhos{
+
+    text-align: center;
+
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #4d9ee9,
+      0 0 4vw 0.4vw #0081fa, inset 0 0 1.5vw 0.4vw #0081fa,
+      inset 0 0 0.4vw 0.2vw #4d9ee9, inset 0 0 0.5vw 0.2vw #fff7f7;
+    border-radius: 1rem; 
+  }
+  
+  .btn_box_objetivos{
+
+    text-align: center;
+
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #e6e94b,
+      0 0 4vw 0.4vw #fbff00, inset 0 0 1.5vw 0.4vw #fbff00,
+      inset 0 0 0.4vw 0.2vw #e6e94b, inset 0 0 0.5vw 0.2vw #fff7f7;
+    border-radius: 1rem; 
+  }
+  
+  .btn_box_animes{
+
+    text-align: center;
+
+    box-shadow: 0 0 0.1vw 0.4vw #fff7f7, 0 0 0.4vw 0.6vw #ec6ecc,
+      0 0 4vw 0.4vw #ff00f2, inset 0 0 1.5vw 0.4vw #ff00f2,
+      inset 0 0 0.4vw 0.2vw #ec6ecc, inset 0 0 0.5vw 0.2vw #fff7f7;
+    border-radius: 1rem; 
+  }
