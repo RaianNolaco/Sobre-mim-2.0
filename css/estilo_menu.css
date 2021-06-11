@@ -44,16 +44,34 @@ body {
     min-height: 100vh;
     font-family: consolas;
   }
+
+  @keyframes flick {
+
+    0%, 18%, 22%, 25%, 53%, 57%, 100%{
+
+    text-shadow:
+    0 0 4px  #ff0,
+    0 0 11px #ff0,
+    0 0 19px #ff0;
+    }
+
+    20%, 24%, 55%{
+  
+        text-shadow: none;
+
+    }
+    
+}
   
   h1 {
-    font-family: Helvetica;
+  
     font-weight: 300;
-    font-size: 2px;
     font-family: neon;
     font-size: 70px;
     color: #ff0;
-    text-shadow: 0px 0px 7px #ff0;
+    
     text-align: center;
+    animation: flick 1.5s infinite alternate;
   }
   
   .box_titulo {
