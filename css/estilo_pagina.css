@@ -43,46 +43,51 @@ html,body{
 header{
      
     background-color: blue;
-    height: 180px;
+    height: 80px;
 
 }
 
 /* BOX-CAPTURA */
 
-.box_captura{
+section.box_captura{
 
+    height: 200px;    
     background-color: black;
-    height: 200px;
+    
 }
 
 /* CONTENT */
 
-.box_captura{
+.content{
 
-    background-color: yellow;
+    padding: 0 20%;
     height: 300px;
+    background-color: yellow;
+    
+    
 }
 
-.post{
+div.post{
 
     background-color: purple;
     height: 100%;
-    width: 50%;
+    width: 80%;
 }
 
-.sidebar{
+div.sidebar{
     
-    background-color: green;
     height: 100%;
-    width: 50%;
+    background-color: green;
+    width: 20%;
 
 }
 
 /* FOOTER */
 
-.box_captura{
+footer{
 
+    height: 180px;
     background-color: gray;
-    height: 180px; 
+    width: 100%; 
 }
 
