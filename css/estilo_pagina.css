@@ -1,0 +1,88 @@
+/* CONFIG PADRÃO*/
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+html,body{
+
+    height: 100%;
+
+}
+
+.container{
+
+   max-width:1280px;
+   margin: 0 auto;
+
+}
+
+.clear{
+
+   clear:both;
+
+}
+
+.left{
+   
+    float:left;
+
+}
+
+.right{
+
+    float:right
+
+}
+
+/* HEADER */
+
+header{
+     
+    background-color: blue;
+    height: 180px;
+
+}
+
+/* BOX-CAPTURA */
+
+.box_captura{
+
+    background-color: black;
+    height: 200px;
+}
+
+/* CONTENT */
+
+.box_captura{
+
+    background-color: yellow;
+    height: 300px;
+}
+
+.post{
+
+    background-color: purple;
+    height: 100%;
+    width: 50%;
+}
+
+.sidebar{
+    
+    background-color: green;
+    height: 100%;
+    width: 50%;
+
+}
+
+/* FOOTER */
+
+.box_captura{
+
+    background-color: gray;
+    height: 180px; 
+}
+
