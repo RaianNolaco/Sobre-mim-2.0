@@ -1,0 +1,229 @@
+/* CONFIG PADRÃO*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: neon-cursiva;
+  src: url(../Font/Rocket-Clouds-Demo.ttf);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+  background-image: url("../imagens/Backgroud_tijolos.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-color: #121212;
+  height: 250px;
+}
+
+/* TITULOS DAS PAGINAS  */
+
+.titulo_pagina {
+  font-family: neon-cursiva;
+  font-weight: 300;
+  font-size: 100px;
+  text-align: center;
+}
+
+@keyframes flick-filme {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 40px #e50b0b, 0 0 80px #e50b0b, 0 0 90px #e50b0b,
+      0 0 100px #e50b0b, 0 0 150px #e50b0b;
+  }
+
+ 
+  55% {
+    text-shadow: none;
+  }
+}
+
+.font_filme {
+  color: #ff0000;
+  animation: flick-filme 1.5s infinite alternate;
+}
+
+@keyframes flick-anime {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 40px #ff00f2, 0 0 80px #ff00f2, 0 0 90px #ff00f2,
+      0 0 100px #ff00f2, 0 0 150px #ff00f2;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.font_anime {
+  color: #ff00f2;
+  animation: flick-anime 1.5s infinite alternate;
+}
+
+@keyframes flick-jogo {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 40px #04df0f, 0 0 80px #04df0f, 0 0 90px #04df0f,
+      0 0 100px #04df0f, 0 0 150px #04df0f;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.font_jogo {
+  color: #04df0f;
+  animation: flick-jogo 1.5s infinite alternate;
+}
+
+@keyframes flick-livro {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 40px #ec8003, 0 0 80px #ec8003, 0 0 90px #ec8003,
+      0 0 100px #ec8003, 0 0 150px #ec8003;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.font_livro {
+  color: #ec8003;
+  animation: flick-livro 1.5s infinite alternate;
+}
+
+@keyframes flick-musica {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 40px #6b006b, 0 0 80px #6b006b, 0 0 90px #6b006b,
+      0 0 100px #6b006b, 0 0 150px #6b006b;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.font_musica {
+  color: #6b006b;
+  animation: flick-musica 1.5s infinite alternate;
+}
+
+@keyframes flick-objetivo {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 40px #fbff00, 0 0 80px #fbff00, 0 0 90px #fbff00,
+      0 0 100px #fbff00, 0 0 150px #fbff00;
+  }
+
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+
+.font_objetivo {
+  color: #fbff00;
+  animation: flick-objetivo 1.5s infinite alternate;
+}
+
+
+.font_sonho {
+  color: #0081fa;
+  text-shadow: 0 0 40px #0081fa, 0 0 80px #0081fa, 0 0 90px #0081fa,
+      0 0 100px #0081fa, 0 0 150px #0081fa;
+}
+
+/* BOX-CAPTURA */
+
+section.box_captura {
+  height: 200px;
+  background-color: black;
+}
+
+/* CONTENT */
+
+.content {
+  padding: 0 20%;
+  height: 300px;
+  background-color: #fff;
+}
+
+div.post {
+  background-color: purple;
+  height: 100%;
+  width: 80%;
+}
+
+div.sidebar {
+  height: 100%;
+  background-color: green;
+  width: 20%;
+}
+
+/* FOOTER */
+
+footer {
+  background-image: url("../imagens/Backgroud_tijolos.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  background-color: #121212;
+  height: 105px;
+  width: 100%;
+}
