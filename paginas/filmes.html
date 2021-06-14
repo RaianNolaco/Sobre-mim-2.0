@@ -9,7 +9,8 @@
     <link rel = "stylesheet" href="../css/estilo.css">
     <link rel = "stylesheet" href= "../css/estilo_menu_pag.css">
     <link rel = "stylesheet" href="../css/estilo_pagina.css">
-  
+    <link rel = "stylesheet" href="../css/estilo_galeria.css">
+
 
 </head>
     <body>
@@ -21,7 +22,7 @@
          <nav>
 
           <div class="btn_box_filmes">
-        <a class="filmes" href="filmes.html"><strong>Filmes</strong></a>
+          <a class="filmes" href="filmes.html"><strong>Filmes</strong></a>
           </div>
 
           <div class="btn_box_jogos">
@@ -62,14 +63,70 @@
 
       <!--**************** CONTEUDO -->
       <section class = "content">
-   
 
-            <table>
+        <h2 style="text-align:center">Lightbox</h2>
 
-
-              
-            </table>
-
+        <div class="row">
+          <div class="column">
+            <img src="../imagens/Filmes/1_filme.jpg" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="../imagens/Filmes/2_filme.jpg" style="width:50%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="../imagens/Filmes/3_filme.jpg" style="width:50%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="../imagens/Filmes/4_filme.jpg" style="width:50%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+          </div>
+        </div>
+        
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <div class="numbertext">1 / 4</div>
+              <img src="../imagens/Filmes/1_filme.jpg" style="width:50%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">2 / 4</div>
+              <img src="../imagens/Filmes/2_filme.jpg" style="width:50%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">3 / 4</div>
+              <img src="../imagens/Filmes/3_filme.jpg" style="width:50%">
+            </div>
+            
+            <div class="mySlides">
+              <div class="numbertext">4 / 4</div>
+              <img src="../imagens/Filmes/4_filme.jpg" style="width:50%">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+        
+        
+            <div class="column">
+              <img class="demo cursor" src="../imagens/Filmes/1_filme.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../imagens/Filmes/2_filme.jpg" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../imagens/Filmes/3_filme.jpg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="../imagens/Filmes/4_filme.jpg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+            </div>
+          </div>
+        </div>
 
       </section>
 
@@ -79,9 +136,7 @@
 
       </footer>
 
-         
-
-
+      <script  src = "../JS/script_galeria.js" > </script>
     </body>
 
    

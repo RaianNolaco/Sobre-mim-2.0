@@ -220,7 +220,8 @@ section.box_captura {
 .content {
   padding: 0 20%;
   height: 300px;
-  background-color: #fff;
+  background: #fff;
+  display: inline;;
 }
 
 div.post {
