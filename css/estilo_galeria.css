@@ -1,11 +1,7 @@
-body {
-    font-family: Verdana, sans-serif;
-    margin: 0;
-  }
-
   
   .row > .column {
-    padding: 0 8px;
+    padding: 0 0.4px;
+
   }
   
   .row:after {
@@ -19,15 +15,9 @@ body {
     width: 25%;
   }
 
-  img{
-
-    margin-left: 50%;
-    margin-right: 50%;
-    width: 25%;
-
-  }
+ 
   
-  /* The Modal (background) */
+  /* o modal(background) */
   .modal {
     display: none;
     position: fixed;
@@ -41,7 +31,7 @@ body {
     background-color:rgba(0, 0, 0, 0.98);
   }
   
-  /* Modal Content */
+  /*conteudo do modal*/
   .modal-content {
     position: relative;
     padding: 0;
@@ -49,7 +39,7 @@ body {
     max-width: 1200px;
   }
   
-  /* The Close Button */
+  /* Botão de fechar */
   .close {
     color: white;
     position: absolute;
@@ -74,7 +64,7 @@ body {
     cursor: pointer;
   }
   
-  /* Next & previous buttons */
+  /* Next e previous buttons */
   .prev,
   .next {
     cursor: pointer;
@@ -87,24 +77,23 @@ body {
     font-weight: bold;
     font-size: 20px;
     transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    -webkit-user-select: none;
+    padding-left: 40px;
+    
   }
   
-  /* Position the "next button" to the right */
+  /*Posicione o "next button" à direita */
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
+  /* Ao passar o mouse, adicione uma cor de fundo preta com um pouco de transparência*/
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
   
-  /* Number text (1/3 etc) */
+  /* nummero do texto (1/3 etc) */
   .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -113,8 +102,16 @@ body {
     top: 0;
   }
   
-  img {
+  .column_1, .column_2 {
     margin-bottom: 10px;
+
+  }
+
+  .row,.row_slides{
+
+    margin: 0 auto;
+    margin-left: 150px ; 
+
   }
   
   .caption-container {
@@ -132,12 +129,57 @@ body {
     opacity: 1;
   }
   
-  img.hover-shadow {
+    img.hover-shadow {
     transition: 0.3s;
   }
   
-  .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  .img_slide{
+ 
+    margin-left: 45%;
+
+  }
+
+  /*cores dos hover*/
+
+  .filmes_column:hover { 
+    color: #fff7f7;
+    background: #e97272;
+    box-shadow: 0 0 10px #e97272, 0 0 40px #e50b0b, 0 0 80px #e50b0b;
+    transition: 0.5s;
+  }
+  
+  .jogos_column:hover { 
+    color: #fff7f7;
+    background: #6aec70;
+    box-shadow: 0 0 10px #6aec70, 0 0 40px #04df0f, 0 0 80px #04df0f;
+    transition: 0.5s;
+  }
+
+  .livros_column:hover { 
+    color: #fff7f7;
+    background: #d89140;
+    box-shadow: 0 0 10px #d89140, 0 0 40px #ec8003, 0 0 80px #ec8003;
+    transition: 0.5s;
+  }
+
+  .musicas_column:hover { 
+    color: #fff7f7;
+    background: #aa42b8;
+    box-shadow: 0 0 10px #aa42b8, 0 0 40px #6b006b, 0 0 80px #6b006b;
+    transition: 0.5s;
+  }
+
+  .sonhos_column:hover { 
+    color: #fff7f7;
+    background: #4d9ee9;
+    box-shadow: 0 0 10px #4d9ee9, 0 0 40px #0081fa, 0 0 80px #0081fa;
+    transition: 0.5s;
   }
 
   
+  .animes_column:hover{
+    color: #fff7f7;
+    background: #aa42b8;
+    box-shadow: 0 0 10px #aa42b8, 0 0 40px #ff00f2, 0 0 80px #ff00f2;
+    transition: 0.5s;
+  }
