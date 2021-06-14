@@ -11,10 +11,17 @@
   }
   
   .column {
-    float:left;
+
+    float: left;
     width: 25%;
   }
 
+ .row_anime{
+
+   align-items: center;
+   align-content: center;
+
+ } 
  
   
   /* o modal(background) */
