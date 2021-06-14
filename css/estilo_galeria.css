@@ -176,10 +176,17 @@
     transition: 0.5s;
   }
 
-  
-  .animes_column:hover{
+.animes_column:hover{
+
     color: #fff7f7;
     background: #aa42b8;
     box-shadow: 0 0 10px #aa42b8, 0 0 40px #ff00f2, 0 0 80px #ff00f2;
+    transition: 0.5s;
+}
+
+  .Series_column:hover{
+    color: #fff7f7;
+    background: #e6e94b;
+    box-shadow: 0 0 10px #e6e94b, 0 0 40px #fbff00, 0 0 80px #fbff00;
     transition: 0.5s;
   }

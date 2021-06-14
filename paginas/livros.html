@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Livros</title>
+    <title>livros</title>
    
     <link rel = "stylesheet" href="../css/estilo.css">
     <link rel = "stylesheet" href= "../css/estilo_menu_pag.css">
     <link rel = "stylesheet" href="../css/estilo_pagina.css">
+    <link rel = "stylesheet" href="../css/estilo_galeria.css">
+
 
 </head>
     <body>
@@ -20,7 +22,7 @@
          <nav>
 
           <div class="btn_box_filmes">
-        <a class="filmes" href="filmes.html"><strong>Filmes</strong></a>
+          <a class="filmes" href="filmes.html"><strong>Filmes</strong></a>
           </div>
 
           <div class="btn_box_jogos">
@@ -51,29 +53,261 @@
 
       </div>
   </div>
+         <!--**************** CABEÇALHO -->
 
-      <!--**************** CABEÇALHO -->
+         <header>
 
-      <header>
+          <h1 class= "titulo_pagina font_livro">livros</h1> 
 
-       <h1 class= "titulo_pagina font_livro">Livros</h1> 
+      </header>
 
-   </header>
+      <!--**************** CONTEUDO -->
+      <section class = "content">
 
-   <!--**************** CONTEUDO -->
-   <section class = "content">
-       
+        <div class="row">
 
-   </section>
+          <div class="column column_1 ">
+            <img src="../imagens/livros/1_livro.jpg" style="width:50%" onclick="openModal();currentSlide(1)" class="hover-shadow livros_column cursor">
+          </div>
+         
+          <div class="column column_1">
+            <img src="../imagens/livros/2_livro.jpg" style="width:50%" onclick="openModal();currentSlide(2)" class="hover-shadow livros_column cursor">
+          </div>
+         
+          <div class="column column_1">
+            <img src="../imagens/livros/3_livro.jpg" style="width:50%" onclick="openModal();currentSlide(3)" class="hover-shadow livros_column cursor">
+          </div>
+          
+          <div class="column column_1">
+            <img src="../imagens/livros/4_livro.jpg" style="width:50%" onclick="openModal();currentSlide(4)" class="hover-shadow livros_column cursor">
+          </div>
+
+          <div class="column column_1">
+            <img src="../imagens/livros/5_livro.jpg" style="width:50%" onclick="openModal();currentSlide(5)" class="hover-shadow livros_column cursor">
+          </div>
+
+          <div class="column column_1">
+            <img src="../imagens/livros/6_livro.png" style="width:50%" onclick="openModal();currentSlide(6)" class="hover-shadow livros_column cursor">
+          </div>
+
+          <div class="column column_1">
+            <img src="../imagens/livros/7_livro.jpg" style="width:50%" onclick="openModal();currentSlide(7)" class="hover-shadow livros_column cursor">
+          </div>
+
+          <div class="column column_1">
+            <img src="../imagens/livros/8_livro.jpg" style="width:50%" onclick="openModal();currentSlide(8)" class="hover-shadow livros_column cursor">
+          </div>
+
+          <div class="column column_1">
+            <img src="../imagens/livros/9_livro.jpg" style="width:50%" onclick="openModal();currentSlide(9)" class="hover-shadow livros_column cursor">
+          </div>
+
+          <div class="column column_1">
+            <img src="../imagens/livros/10_livro.jpg" style="width:50%" onclick="openModal();currentSlide(10)" class="hover-shadow livros_column cursor">
+          </div>
+          
+          <div class="column column_1">
+            <img src="../imagens/livros/11_livro.jpg" style="width:50%" onclick="openModal();currentSlide(11)" class="hover-shadow livros_column cursor">
+          </div>
+
+          <div class="column column_1">
+            <img src="../imagens/livros/12_livro.jpg" style="width:50%" onclick="openModal();currentSlide(12)" class="hover-shadow livros_column cursor">
+          </div>
+
+          <div class="column column_1">
+            <img src="../imagens/livros/13_livro.jpg" style="width:50%" onclick="openModal();currentSlide(13)" class="hover-shadow livros_column cursor">
+          </div>
+
+          <div class="column column_1">
+            <img src="../imagens/livros/14_livro.jpg" style="width:50%" onclick="openModal();currentSlide(14)" class="hover-shadow livros_column cursor">
+          </div>
+
+          <div class="column column_1">
+            <img src="../imagens/livros/15_livro.jpg" style="width:50%" onclick="openModal();currentSlide(15)" class="hover-shadow livros_column cursor">
+          </div>
+
+          <div class="column column_1">
+            <img src="../imagens/livros/16_livro.png" style="width:50%" onclick="openModal();currentSlide(16)" class="hover-shadow livros_column cursor">
+          </div>
 
 
-   <!--**************** RODAPÉ -->
-   <footer>
-
-   </footer>
 
 
 
+        </div>
+        
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <div class="numbertext">1 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/1_livro.jpg" >
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">2 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/2_livro.jpg" >
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">3 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/3_livro.jpg">
+            </div>
+            
+            <div class="mySlides">
+              <div class="numbertext">4 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/4_livro.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">5 / 16</div>
+              <img  class = "img_slide" src="../imagens/livros/5_livro.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">6 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/6_livro.png">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">7 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/7_livro.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">8 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/8_livro.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">9 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/9_livro.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">10 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/10_livro.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">11 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/11_livro.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">12 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/12_livro.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">13 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/13_livro.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">14 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/14_livro.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">15 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/15_livro.jpg">
+            </div>
+
+            <div class="mySlides">
+              <div class="numbertext">16 / 16</div>
+              <img class = "img_slide" src="../imagens/livros/16_livro.png">
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+        
+            <div class="row_slides">
+
+              <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/1_livro.jpg" style="width:300px" onclick="currentSlide(1)" alt="">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/2_livro.jpg" style="width:300px" onclick="currentSlide(2)" alt="">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/3_livro.jpg" style="width:300px" onclick="currentSlide(3)" alt="">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/4_livro.jpg" style="width:300px" onclick="currentSlide(4)" alt="">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/5_livro.jpg" style="width:300px" onclick="currentSlide(5)" alt="">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/6_livro.png" style="width:300px" onclick="currentSlide(6)" alt=" ">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/7_livro.jpg" style="width:300px" onclick="currentSlide(7)" alt=" ">
+            </div>
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/8_livro.jpg" style="width:300px" onclick="currentSlide(8)" alt=" ">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/9_livro.jpg" style="width:300px" onclick="currentSlide(9)" alt=" ">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/10_livro.jpg" style="width:300px" onclick="currentSlide(10)" alt=" ">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/11_livro.jpg" style="width:300px" onclick="currentSlide(11)" alt=" ">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/12_livro.jpg" style="width:300px" onclick="currentSlide(12)" alt=" ">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/13_livro.jpg" style="width:300px" onclick="currentSlide(13)" alt=" ">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/14_livro.jpg" style="width:300px" onclick="currentSlide(14)" alt=" ">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/15_livro.jpg" style="width:300px" onclick="currentSlide(15)" alt=" ">
+            </div>
+
+            <div class="column column_2">
+              <img class="demo cursor" src="../imagens/livros/16_livro.png" style="width:300px" onclick="currentSlide(16)" alt=" ">
+            </div>
+
+          </div>
+
+            
+          </div>
+        </div>
+
+      </section>
+
+
+      <!--**************** RODAPÉ -->
+      <footer>
+
+      </footer>
+
+      <script  src = "../JS/script_galeria.js" > </script>
     </body>
 
    
