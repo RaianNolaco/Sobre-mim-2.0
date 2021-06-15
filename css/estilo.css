@@ -1,6 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+
+}
+
+body{
+  width: 100%;
+
 }
 
 @font-face {
@@ -16,17 +22,19 @@
   cursor: pointer;
   padding: 15px;
   position: absolute;
-  z-index: 1;
+  z-index: 100001;
 }
 
 
 .barra {
-  background-color: #333;
+  background-color: rgba(0,0 ,0, 0.95);
   height: 100%;
   width: 300px;
   position: absolute;
   transition: all 0.2s linear;
   left: -300px;
+  position: fixed;
+  z-index: 100000;
 }
 
 nav { 
