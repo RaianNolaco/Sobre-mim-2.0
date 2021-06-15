@@ -14,14 +14,9 @@
 html,
 body {
   height: 100%;
-  scrollbar-arrow-color:#000000;
-  scrollbar-3dlight-color:#000000;
-  scrollbar-highlight-color:#FF0000;
-  scrollbar-face-color:#FFFFFF;
-  scrollbar-shadow-color:#0000FF;
-  scrollbar-darkshadow-color:#FFFF00;
-  scrollbar-track-color:#00FF00;
+
 }
+
 
 .container {
   max-width: 1280px;
