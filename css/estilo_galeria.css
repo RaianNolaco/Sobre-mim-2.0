@@ -1,29 +1,38 @@
   
-  .row > .column {
-    padding: 0 0.4px;
-
-  }
+  
   
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
-  .column {
 
-    float: left;
-    width: 25%;
-  }
 
- .row_anime{
+ .row ,.row_slides{
 
-   align-items: center;
-   align-content: center;
+   margin-left: 7%;
+   justify-content: center;
+   display: flex;
 
  } 
  
+
+ .column_1{
+    
+    width: 60%;
+ }
   
+.column_1 img{
+
+    width: 100%;    
+}
+
+.column_2 img{
+
+    width: 75%;
+}
+
+
   /* o modal(background) */
   .modal {
     display: none;
@@ -114,13 +123,13 @@
 
   }
 
-  .row,.row_slides{
+.row{
 
-    margin: 0 auto;
-    margin-left: 150px ; 
+   display: grid;
+   grid-template-columns: auto auto auto auto auto ; 
 
-  }
-  
+}
+
   .caption-container {
     text-align: center;
     padding: 2px 16px;
