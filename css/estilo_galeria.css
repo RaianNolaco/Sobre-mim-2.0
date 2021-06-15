@@ -129,6 +129,17 @@
 
 }
 
+.row_musica{
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 60px;
+  margin-right: 50px;  
+
+}
+
+
+
   .caption-container {
     text-align: center;
     padding: 2px 16px;
