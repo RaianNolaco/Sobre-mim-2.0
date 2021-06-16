@@ -1,7 +1,4 @@
-  
-  
-  
-  .row:after {
+.row:after {
     content: "";
     display: table;
     clear: both;
@@ -16,7 +13,6 @@
 
  } 
  
-
  .column_1{
     
     width: 60%;
@@ -154,12 +150,11 @@
   align-items: flex-end;
 }
 
-
-  .caption-container {
-    text-align: center;
-    padding: 2px 16px;
-    color: white;
-  }
+.caption-container {
+  text-align: center;
+  padding: 2px 16px;
+  color: white;
+}
   
   .demo {
     opacity: 0.6;
